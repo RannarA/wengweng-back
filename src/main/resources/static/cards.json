@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "suit": "hearts",
+    "rank": "rank2",
+    "turned": false
+  },
+  {
+    "id": 2,
+    "suit": "hearts",
+    "rank": "rank3",
+    "turned": false
+  },
+  {
+    "id": 3,
+    "suit": "hearts",
+    "rank": "rank4",
+    "turned": false
+  },
+  {
+    "id": 4,
+    "suit": "hearts",
+    "rank": "rank5",
+    "turned": false
+  },
+  {
+    "id": 5,
+    "suit": "hearts",
+    "rank": "rank6",
+    "turned": false
+  },
+  {
+    "id": 6,
+    "suit": "hearts",
+    "rank": "rank7",
+    "turned": false
+  },
+  {
+    "id": 7,
+    "suit": "hearts",
+    "rank": "rank8",
+    "turned": false
+  },
+  {
+    "id": 8,
+    "suit": "hearts",
+    "rank": "rank9",
+    "turned": false
+  },
+  {
+    "id": 9,
+    "suit": "hearts",
+    "rank": "rank10",
+    "turned": false
+  },
+  {
+    "id": 10,
+    "suit": "hearts",
+    "rank": "rank11",
+    "turned": false
+  },
+  {
+    "id": 11,
+    "suit": "hearts",
+    "rank": "rank12",
+    "turned": false
+  },
+  {
+    "id": 12,
+    "suit": "hearts",
+    "rank": "rank13",
+    "turned": false
+  },
+  {
+    "id": 13,
+    "suit": "hearts",
+    "rank": "rank1",
+    "turned": false
+  },
+  {
+    "id": 14,
+    "suit": "diamonds",
+    "rank": "rank2",
+    "turned": false
+  },
+  {
+    "id": 15,
+    "suit": "diamonds",
+    "rank": "rank3",
+    "turned": false
+  },
+  {
+    "id": 16,
+    "suit": "diamonds",
+    "rank": "rank4",
+    "turned": false
+  },
+  {
+    "id": 17,
+    "suit": "diamonds",
+    "rank": "rank5",
+    "turned": false
+  },
+  {
+    "id": 18,
+    "suit": "diamonds",
+    "rank": "rank6",
+    "turned": false
+  },
+  {
+    "id": 19,
+    "suit": "diamonds",
+    "rank": "rank7",
+    "turned": false
+  },
+  {
+    "id": 20,
+    "suit": "diamonds",
+    "rank": "rank8",
+    "turned": false
+  },
+  {
+    "id": 21,
+    "suit": "diamonds",
+    "rank": "rank9",
+    "turned": false
+  },
+  {
+    "id": 22,
+    "suit": "diamonds",
+    "rank": "rank10",
+    "turned": false
+  },
+  {
+    "id": 23,
+    "suit": "diamonds",
+    "rank": "rank11",
+    "turned": false
+  },
+  {
+    "id": 24,
+    "suit": "diamonds",
+    "rank": "rank12",
+    "turned": false
+  },
+  {
+    "id": 25,
+    "suit": "diamonds",
+    "rank": "rank13",
+    "turned": false
+  },
+  {
+    "id": 26,
+    "suit": "diamonds",
+    "rank": "rank1",
+    "turned": false
+  },
+  {
+    "id": 27,
+    "suit": "clubs",
+    "rank": "rank2",
+    "turned": false
+  },
+  {
+    "id": 28,
+    "suit": "clubs",
+    "rank": "rank3",
+    "turned": false
+  },
+  {
+    "id": 29,
+    "suit": "clubs",
+    "rank": "rank4",
+    "turned": false
+  },
+  {
+    "id": 30,
+    "suit": "clubs",
+    "rank": "rank5",
+    "turned": false
+  },
+  {
+    "id": 31,
+    "suit": "clubs",
+    "rank": "rank6",
+    "turned": false
+  },
+  {
+    "id": 32,
+    "suit": "clubs",
+    "rank": "rank7",
+    "turned": false
+  },
+  {
+    "id": 33,
+    "suit": "clubs",
+    "rank": "rank8",
+    "turned": false
+  },
+  {
+    "id": 34,
+    "suit": "clubs",
+    "rank": "rank9",
+    "turned": false
+  },
+  {
+    "id": 35,
+    "suit": "clubs",
+    "rank": "rank10",
+    "turned": false
+  },
+  {
+    "id": 36,
+    "suit": "clubs",
+    "rank": "rank11",
+    "turned": false
+  },
+  {
+    "id": 37,
+    "suit": "clubs",
+    "rank": "rank12",
+    "turned": false
+  },
+  {
+    "id": 38,
+    "suit": "clubs",
+    "rank": "rank13",
+    "turned": false
+  },
+  {
+    "id": 39,
+    "suit": "clubs",
+    "rank": "rank1",
+    "turned": false
+  },
+  {
+    "id": 40,
+    "suit": "spades",
+    "rank": "rank2",
+    "turned": false
+  },
+  {
+    "id": 41,
+    "suit": "spades",
+    "rank": "rank3",
+    "turned": false
+  },
+  {
+    "id": 42,
+    "suit": "spades",
+    "rank": "rank4",
+    "turned": false
+  },
+  {
+    "id": 43,
+    "suit": "spades",
+    "rank": "rank5",
+    "turned": false
+  },
+  {
+    "id": 44,
+    "suit": "spades",
+    "rank": "rank6",
+    "turned": false
+  },
+  {
+    "id": 45,
+    "suit": "spades",
+    "rank": "rank7",
+    "turned": false
+  },
+  {
+    "id": 46,
+    "suit": "spades",
+    "rank": "rank8",
+    "turned": false
+  },
+  {
+    "id": 47,
+    "suit": "spades",
+    "rank": "rank9",
+    "turned": false
+  },
+  {
+    "id": 48,
+    "suit": "spades",
+    "rank": "rank10",
+    "turned": false
+  },
+  {
+    "id": 49,
+    "suit": "spades",
+    "rank": "rank11",
+    "turned": false
+  },
+  {
+    "id": 50,
+    "suit": "spades",
+    "rank": "rank12",
+    "turned": false
+  },
+  {
+    "id": 51,
+    "suit": "spades",
+    "rank": "rank13",
+    "turned": false
+  },
+  {
+    "id": 52,
+    "suit": "spades",
+    "rank": "rank1",
+    "turned": false
+  }
+]
