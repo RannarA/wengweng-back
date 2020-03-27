@@ -2,6 +2,7 @@ package com.rannar.wengweng.service.impl;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.rannar.wengweng.dto.GameStateDTO;
 import com.rannar.wengweng.entity.Card;
 import com.rannar.wengweng.entity.GameState;
 import com.rannar.wengweng.entity.Player;
@@ -31,9 +32,9 @@ public class GameServiceImpl implements GameService {
     }
 
     @Override
-    public GameState startGame() {
+    public GameStateDTO startGame() {
         GameState gameState = initGameState();
-        return gameStateRepository.save(gameState);
+        return new GameStateDTO(gameStateRepository.save(gameState));
     }
 
     GameState initGameState() {
