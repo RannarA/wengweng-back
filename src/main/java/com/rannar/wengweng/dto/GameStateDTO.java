@@ -1,6 +1,7 @@
 package com.rannar.wengweng.dto;
 
 import com.rannar.wengweng.entity.GameState;
+import com.rannar.wengweng.entity.Round;
 import com.rannar.wengweng.entity.Row;
 
 import java.util.List;
@@ -8,11 +9,11 @@ import java.util.List;
 public class GameStateDTO {
     private String id;
     private List<Row> pyramid;
+    private Round currentRound;
 
     public GameStateDTO() {}
 
     public GameStateDTO(GameState gameState) {
-        this.id = gameState.getId();
         this.pyramid = gameState.getPyramid();
     }
 
@@ -30,5 +31,13 @@ public class GameStateDTO {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public Round getCurrentRound() {
+        return currentRound;
+    }
+
+    public void setCurrentRound(Round currentRound) {
+        this.currentRound = currentRound;
     }
 }

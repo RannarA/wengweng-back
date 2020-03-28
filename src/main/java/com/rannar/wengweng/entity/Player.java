@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Player {
     private String name;
+    private int drinkCount;
     private List<Card> cards;
 
     public Player() {}
@@ -30,5 +31,17 @@ public class Player {
 
     public void setCards(List<Card> cards) {
         this.cards = cards;
+    }
+
+    public int getDrinkCount() {
+        return drinkCount;
+    }
+
+    public void setDrinkCount(int drinkCount) {
+        this.drinkCount = drinkCount;
+    }
+
+    public void addDrinks(int count) {
+        drinkCount += count;
     }
 }
