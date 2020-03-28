@@ -65,6 +65,13 @@ public class GameServiceImpl implements GameService {
         victims.forEach(victim -> victim.addDrinks(1));
 
         move.getCards().forEach(card -> game.removeCard(move.getPlayer().getName(), card));
+
+        game.getCurrentRound().getFinishedPlayers().add(move.getPlayer().getName());
+
+        if (game.getCurrentRound().getFinishedPlayers().size() == game.getPlayers().size()) {
+            game.setCurrentRound(null);
+        }
+
         return game;
     }
 

@@ -19,7 +19,7 @@ public class GameSocketController {
     }
 
     @MessageMapping("/start")
-    @SendTo("/game/start")
+    @SendToUser("/game/start")
     public GameStateDTO start() {
         return new GameStateDTO(this.gameService.startGame());
     }
@@ -34,15 +34,21 @@ public class GameSocketController {
         return new GameStateDTO(this.gameService.getCurrentGame());
     }
 
-    @MessageMapping("/player")
-    @SendToUser("/game/player")
-    public Player getPlayer(String name) {
-        return this.gameService.getPlayer(name);
+    @MessageMapping("/round/start")
+    @SendTo("/game/round/start")
+    public GameStateDTO roundStart() {
+        return new GameStateDTO(gameService.roundStart());
     }
 
     @MessageMapping("/move")
     @SendToUser("/game/move")
     public GameStateDTO move(Move move) {
         return new GameStateDTO(gameService.move(move));
+    }
+
+    @MessageMapping("/player")
+    @SendToUser("/game/player")
+    public Player getPlayer(String name) {
+        return this.gameService.getPlayer(name);
     }
 }

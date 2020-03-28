@@ -1,5 +1,6 @@
 package com.rannar.wengweng.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Round {
@@ -15,6 +16,9 @@ public class Round {
     }
 
     public List<String> getFinishedPlayers() {
+        if (finishedPlayers == null) {
+            finishedPlayers = new ArrayList<>();
+        }
         return finishedPlayers;
     }
 
